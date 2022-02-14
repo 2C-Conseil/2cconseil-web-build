@@ -1,0 +1,21 @@
+
+    .footer{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #690101;
+    }
+
+    .nav-footer{
+        padding: 10px;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+    .nav-footer:hover{
+        text-decoration: underline;
+        
+    }
