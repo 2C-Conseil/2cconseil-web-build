@@ -68,3 +68,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+import './App.css';
+import React from 'react';
+import Navigation from './components/navigation/Navigation';
+import Home from './home/Home';
+import Conseil from './nos-services/conseil/Conseil';
+import Migration from './nos-services/migration/Migration';
+import Data from './nos-services/data/Data';
+import Ipa from './nos-services/ipa/Ipa';
+import JoinUs from './join-us/JoinUs';
+import Offre from './join-us/offre/Offre';
+import Cand from './join-us/candidature/Cand';
+import CandSpont from './join-us/candidature/CandSpont';
+import Footer from './components/footer/Footer';
+import Contact from './contact/Contact';
+import {BrowserRouter, Routes as Switch} from 'react-router-dom';
+import {Route} from "react-router";
+import Bouton from './join-us/candidature/bouton/Bouton';
+
+

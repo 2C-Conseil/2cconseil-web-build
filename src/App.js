@@ -1,8 +1,10 @@
 import './App.css';
-import RouteApp from './RouteApp';
+import React from 'react';
 import Navigation from './components/navigation/Navigation';
 import Footer from './components/footer/Footer';
 import {BrowserRouter} from 'react-router-dom';
+import RouteApp from './RouteApp';
+
 
 function App() {
 
@@ -17,8 +19,7 @@ function App() {
           <Footer />
       </BrowserRouter>
     </div>
-  );
-};
+  )
+}
   
-
 export default App;
