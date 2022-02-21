@@ -10,8 +10,8 @@ function Engagement(){
                 <div class="ban"></div>
                 <div class="title"><p>Nos Engagements</p></div>
             </div>
-            <section class="engage">
-                <div class="droit">
+            <section class="engagement">
+                <div class="needobj">
                     <h1>Vos besoins et objectifs</h1>
                     <p>Dès le départ d’une mission, nous sommes attentifs à l’expression de vos besoins et objectifs pour orienter au mieux notre accompagnement vers vos objectifs.</p>
                 </div>
@@ -21,7 +21,7 @@ function Engagement(){
                     Toutes informations et éléments qui nous seront transmises, seront réputées comme non confidentielles.</p>
 
                 </div>
-                <div class="design">
+                <div class="practice">
                     <h1>Best practicess</h1>
                     <p>
                         Nous veillons à appliquer, dans nos domaines et dans les vôtres, les best practices en vigueur, que ce soit en matière d’expertise, de méthode de travail ou d’éthique.
