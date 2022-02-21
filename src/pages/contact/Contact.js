@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import "aos/dist/aos.css";
 import Aos from 'aos';
-import './contact.css'
+import './contact.scoped.css'
 import hContImg from './img/head-contact.svg'
 
 function Contact() {
@@ -12,30 +12,34 @@ function Contact() {
 
   return (
     <div className="Contact">
+        <div className='Cimg'>
             <img className="cont-img" src={hContImg}  alt="En-tete contact" />
-            <section class="info-cont">
-                <div class="bloc-cont leftC" data-aos="fade-up"
+            <div className='ban-contact-mob'>Contact</div>
+        </div>
+        <section class="info-contoct">
+                <div class="bloc-contact leftC" data-aos="fade-up"
                                             data-aos-duration="2600">
-                    <h1>Adresse</h1>
+                    <h1 className='title-info-contact'>Adresse</h1>
                     <p>11 rue antoine lavoisier <br />
                        Roissy en brie 77860</p>
                 </div>
-                <div class="bloc-cont centerC" data-aos="fade-up"
-     data-aos-duration="2800">
-                    <h1>Contact</h1>
+                <div class="bloc-contact centerC" data-aos="fade-up"
+                                                 data-aos-duration="2800">
+                    <h1 className='title-info-contact'>Contact</h1>
                     <p>Tél. 09 73 88 09 37 <br />
                     contact@2cconseil.com
                     </p>
                 </div>
-                <div class="bloc-cont rightC" data-aos="fade-up"
-     data-aos-duration="3000">
-                    <h1>Horaires d'ouvertures</h1>
+                <div class="bloc-contact rightC" data-aos="fade-up"
+                                                data-aos-duration="3000">
+                    <h1 className='title-info-contact'>Horaires d'ouvertures</h1>
                     <p>Lundi - Vendredi <br />
                     9h30 - 18h30
                     </p>
                 </div>
             </section>
-            <section class="form-frame" data-aos="fade-up" data-aos-duration="1200">
+            <section class="form-frame" data-aos="fade-up"
+                                        data-aos-duration="1200">
                 <div class="formulaire">
                     <form className="formCt" action="">
                         <div class="title-input">
@@ -48,7 +52,7 @@ function Contact() {
                         </div>
                         <div class="title-input">
                             <h4>Message <span class="dot">*</span></h4>
-                            <textarea name="message" id="message" cols="66" rows="3" required></textarea>
+                            <textarea name="message" id="message" cols="51" rows="3" required></textarea>
                         </div>
                         <button  class="submiter" type="button">Envoyer</button>
                     </form>

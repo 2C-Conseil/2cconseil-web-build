@@ -1,0 +1,196 @@
+.Contact{
+    width: 100%;
+    min-height: 1480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+.cont-img{
+  margin-top: 50px;
+  }
+
+  .ban-contact-mob{
+    display: none;
+  }
+  
+  .info-contoct{
+    min-width: 80%;
+    height: 160px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .form-frame{
+    width: 84%;
+    height: 700px;
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+  }
+  
+  .formulaire{
+    min-width: 50%;
+    height: 400px;
+    display: flex;
+  }
+  
+  .formulaire .formCt {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  .dot{
+    color: red;
+  }
+  
+  .title-input h4{
+    margin-top: 15px;
+    font-weight: 500;
+  
+  }
+
+  .formulaire form .fieldCt{
+    max-width: 500px;
+    height: 36px;
+  }
+  
+  
+  .fieldCt, textarea{
+    margin-top: 12px;
+    border:none;
+    border-bottom: 1px solid black;
+  }
+  
+  .submiter{
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #970101;
+    transition: 0.5s ease;
+  }
+  
+  .submiter:hover{
+    color: black;
+    border: 1px solid #970101;
+    background-color: white;
+  }
+  
+  .frame{
+    width: 50%;
+    height: 400px;
+
+  }
+  
+  iframe{
+    width: 100%;
+    height: 396px;
+    border: none; 
+  }
+
+
+  @media (max-width : 480px){
+
+    .Contact{
+      width: 100%;
+      height: 1850px;
+      justify-content: space-between;
+    }
+
+    .Cimg{
+      width: 100%;
+      height: 285px;
+      background-image: url(./img/head-contact-mob.svg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ban-contact-mob{
+      width: 40%;
+      height: 60px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 28px;
+      color: #970101;
+      background-color: white;
+      font-weight: 500;
+    }
+    
+    .cont-img{
+      display: none;
+    }
+    
+    .info-contoct{
+      width: 80%;
+      height: 440px;
+      display: flex;
+      margin-top: 0%;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+    }
+
+    .bloc-contact h1{
+      color: #970101;
+    }
+
+    .form-frame{
+      width: 100%;
+      height: 1000px;
+      margin-top: 50px;
+      flex-direction: column;
+    }
+
+    .formulaire{
+      max-width: 100%;
+      display: flex;
+     
+      justify-content: center;
+      align-items: center;
+    }
+
+    form{
+      width: 80%;
+    }
+
+    .title-input{
+      width: 80%;
+    }
+
+    .formulaire form .fieldCt{
+      min-width: 380px;
+      height: 36px;
+    }
+    
+    .submiter{
+      margin-left: 0%;
+      align-self: center;
+    }
+ 
+    .frame{
+      width: 100%;
+      height: 700px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+  
+    iframe{
+      width: 80%;
+      height: 396px;
+      border: none; 
+    }
+  }
