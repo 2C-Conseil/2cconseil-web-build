@@ -32,6 +32,7 @@ function Navigation() {
                 <li><Link className="nav-header" to="/contact">Contact</Link></li>
             </ul> 
         </div>
+        <div className='hamburger'><i class="bi bi-list"></i></div>
     </div>
 
   )
