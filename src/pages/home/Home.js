@@ -2,10 +2,10 @@ import React, {useEffect} from 'react';
 import './home.css';
 import headImg from './img/head-index.svg';
 import Cfao from './img/references/cfao-group.svg';
-import CreditAgr from './img/references/credit-agricole-2.svg';
-import Edf from './img/references/edf-2.svg';
-import Europ from './img/references/europ-assistance-2.svg';
-import Ofii from './img/references/logo-OFII.svg';
+import Dpd from './img/references/dpd.svg';
+import Geopost from './img/references/geopost.svg';
+import Alten from './img/references/alten.svg';
+import Jojo from './img/references/jojo.png';
 import Ratpdev from './img/references/ratpdev.png';
 import "aos/dist/aos.css";
 import Aos from 'aos';
@@ -93,21 +93,21 @@ function Home() {
             <div className="references-content">
                 <div className="ref up">
                 <div className="ref-bloc">
-                    <img src={Cfao} alt=" Cfao logo" /> 
+                    <img className='menos' src={Alten} alt="Alten logo" /> 
                 </div>
                 <div className="ref-bloc">
-                    <img className="plus"  src={CreditAgr} alt="Credit agricole logo" />
+                    <img className="plus"  src={Cfao} alt="Cfao logo" />
                 </div>
                 <div className="ref-bloc">
-                    <img className="menos"  src={Edf} alt="Edf logo" />
+                    <img className=""  src={Dpd} alt="Dpd logo" />
                 </div>
                 </div>
                 <div className="ref down">
                 <div className="ref-bloc">
-                    <img  src={Europ} alt="Europ assistance logo" />
+                    <img className='plus'  src={Geopost} alt="Geopost logo" />
                 </div>
                 <div className="ref-bloc">
-                    <img  src={Ofii} alt="OFII logo" />
+                    <img  src={Jojo} alt="OFII logo" />
                 </div>
                 <div className="ref-bloc">
                     <img className="plus"  src={Ratpdev} alt="Ratp dev logo" />
