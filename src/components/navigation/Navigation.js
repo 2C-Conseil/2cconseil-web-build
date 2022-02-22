@@ -32,7 +32,7 @@ function Navigation() {
                 <li><Link className="nav-header" to="/contact">Contact</Link></li>
             </ul> 
         </div>
-        <div className='hamburger'><i class="bi bi-list"></i></div>
+        <div className='hamburger'><Link className='btn-hamb' to="/navigation-mob"><i class="bi bi-list"></i></Link></div>
     </div>
 
   )

@@ -95,11 +95,11 @@ a{
 
     .h-left{
         width: 50%;
-        height: 74px;  
+        height: 60px;  
     }
 
     .h-left img{
-        width: 72px;
+        width: 83px;
         height: auto;
 
     }
@@ -111,7 +111,7 @@ a{
     .hamburger{
         display: block;
         width: 30%;
-        height: 100px;
+        height: 60px;
         display: flex;
         justify-content: center;
         align-items: center;
