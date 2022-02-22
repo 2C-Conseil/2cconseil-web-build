@@ -50,7 +50,7 @@
   }
   
   .are-us-container{
-    max-width: 57%;
+    width: 57%;
     height: 470px;
     display: flex;
     margin-left: 220px;
@@ -61,7 +61,7 @@
     
   .are-us-content{
     width: 92%;
-    height: 420px;
+    height: 460px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -74,8 +74,8 @@
   }
   
   .line-are{
-    width: 100px;
-    height: 4px;
+    width: 90px;
+    height: 3px;
     background-color: #970101;
   }
   
@@ -233,6 +233,16 @@
     width: 85%;
     height: auto;
   }
+
+  .ref-bloc .cf, .ref-bloc .al{
+    width: 71%;
+    height: auto;
+  }
+
+  .ref-bloc .al{
+    width: 33%;
+    height: auto;
+  }
   
   @media (max-width: 480px){
           
@@ -259,22 +269,26 @@
     }
 
     .are-us-container{
-      width: 80%;
-      height: 500px;
+      width: 400px;
+      height: 495px;
       margin-left: 0%;
       justify-content: center;
     }
 
     .are-us-content h1{
-      font-size: 28px;
+      font-size: 25px;
     }
     
 
     .are-us-content p{
       line-height: 29px;
-      font-size: 18px;
+      font-size: 16px;
     }
     
+    .line-are{
+      width: 40px;
+      height: 3px;
+    }
           /*Section Nos Services Mob*/
 
 
@@ -288,6 +302,7 @@
     }
 
     .services .banniere .title-service{
+
     }
 
     .services .banniere .title-service h1{

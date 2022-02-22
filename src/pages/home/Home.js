@@ -116,10 +116,10 @@ function Home() {
             <div className="references-content">
                 <div className="ref up">
                 <div className="ref-bloc">
-                    <img className='menos' src={Alten} alt="Alten logo" /> 
+                    <img className='al' src={Alten} alt="Alten logo" /> 
                 </div>
                 <div className="ref-bloc">
-                    <img className="plus"  src={Cfao} alt="Cfao logo" />
+                    <img className="cf"  src={Cfao} alt="Cfao logo" />
                 </div>
                 <div className="ref-bloc">
                     <img className=""  src={Dpd} alt="Dpd logo" />
