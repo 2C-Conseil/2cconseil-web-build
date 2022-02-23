@@ -20,7 +20,7 @@
 }
 
 .cancel-btn-mob{
-    font-size: 30px;
+    font-size: 23px;
     color: black;
     margin-right: 40px;
 }
@@ -34,12 +34,13 @@
 }
 
 .menu-nav-mob li{
-    margin-left: 40px;
-    font-size: 18px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: black;
 }
 
 .bi-caret-down-fill{
-    font-size: 16px;
+    font-size: 13px;
     margin-top: 10px;
     color: black;
 }

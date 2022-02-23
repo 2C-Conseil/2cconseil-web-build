@@ -1,6 +1,6 @@
 .header-nav{
     width: 100%;
-    max-height: 100px;
+    height: 94px;
     display: flex;
     align-items: center;
     box-shadow:0px 3px 3px #AEB4B2;
@@ -15,9 +15,9 @@
 }
 
 .header-nav .h-left img{
-    max-width: 130px;
-    height: 54px;
-    margin-left: 50px;
+    max-width: 110px;
+    height: auto;
+    margin-left: 40px;
 }
 
 .header-nav .h-right{
@@ -27,7 +27,7 @@
 }
 
 .header-nav .h-right .navbar{
-    width: 80%;
+    width: 75%;
     display: flex;
     margin-top: 5%;
     justify-content: space-between;
@@ -85,21 +85,21 @@ a{
 }
 
 
-@media (max-width : 480px) {
+@media (min-width : 320px) and (max-width : 768px) {
 
     .header-nav{
         width: 100%;
-        min-height: 60px;
+        height: 70px;
         justify-content: space-between;
     }
 
     .h-left{
         width: 50%;
-        height: 60px;  
+        height: 80px;  
     }
 
     .h-left img{
-        width: 83px;
+        width: 69px;
         height: auto;
 
     }
@@ -111,14 +111,14 @@ a{
     .hamburger{
         display: block;
         width: 30%;
-        height: 60px;
+        height: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .hamburger i {
-        font-size: 33px;
+        font-size: 30px;
         color: black;
     }
     

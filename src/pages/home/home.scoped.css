@@ -6,13 +6,13 @@
 
 .slog-img{
     width: 100%;
-    max-height: 600px;
+    height: 590px;
     display: flex;
   }
   
   .slogan{
     width: 35%;
-    max-height: 600px;
+    max-height: 91.3%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@
   
   .img-container-home{
     width: 65%;
-    height: 598px;
+    max-height: 598px;
   }
   
   .img-header-home{
@@ -68,7 +68,7 @@
   }
   
   .are-us-content h1{
-    font-size: 35px;
+    font-size: 36px;
     font-weight: 600;
     color: #970101;
   }
@@ -120,7 +120,7 @@
   }
   
   .services .banniere .title-service h1{
-    font-size: 35px;
+    font-size: 34px;
     color: white;
     font-weight: 500;
   }
@@ -191,7 +191,7 @@
   
   .references h1{
     text-align: center;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 600;
   }
   
@@ -244,45 +244,58 @@
     height: auto;
   }
   
-  @media (max-width: 480px){
-          
-    
+  @media (min-width : 320px) and (max-width : 480px) {
+
+   
           /*Section Slogan Image Mob*/
 
     .slog-img{
-      height: 300px;
+      height: 250px;
     }
+    
     .slogan{
-      height: 212px;
+      display: none;
+      height: 100%;
+    }
+
+    .img-container-home{
+      width: 100%;
+      height: 300px;
     }
     
     .slogan h1{
-      font-size: 15px;
+      font-size: 12px;
+    }
+
+    .img-header-home{
+      width: 100%;
+      height: auto;
     }
 
           /*Section Qui sommes-nous Mob*/ 
     
     .are-us{
       width: 100%;
+      min-height: 510px;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
     }
 
     .are-us-container{
-      width: 400px;
-      height: 495px;
+      width: 83%;
+      height: 450px;
+      display: flex;
       margin-left: 0%;
-      justify-content: center;
     }
 
     .are-us-content h1{
-      font-size: 25px;
+      font-size: 24px;
     }
     
 
     .are-us-content p{
-      line-height: 29px;
-      font-size: 16px;
+      line-height: 21px;
+      font-size: 14px;
     }
     
     .line-are{
@@ -306,13 +319,19 @@
     }
 
     .services .banniere .title-service h1{
-      font-size: 28px;
+      font-size: 24px;
 
     }
 
     .services .banniere .title-service h3{
-      font-size: 15px;
+      font-size: 14px;
       line-height: 25px;
+    }
+
+    .bloc-bu-home .blocH .bloc-bu-content h2{
+      color: #970101;
+      font-weight: 500;
+      font-size: 21px;
     }
 
     .bloc-bu-home{
@@ -327,8 +346,14 @@
       margin-top: 80px;
     }
 
+    .bloc-bu-home .blocH{
+      width: 75%;
+      height: 300px;
+    }
+
     .bloc-bu-home .blocH .bloc-bu-content p{
       line-height: 28px;
+      font-size: 15px;
     }
 
 
@@ -340,6 +365,11 @@
       height: 1100px;
     }
     
+    .references h1{
+      font-size: 24px;
+    }
+
+    
     .ref{
       width: 100%;
       height: 500px;
@@ -348,5 +378,41 @@
       flex-direction: column;
     }
 
+    .ref-bloc{
+      width: 200px;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .ref-bloc img{
+      width: 48%;
+      height: auto;
+    }
+    
+    .ref-bloc .menos{
+      width: 80%;
+      height: auto;
+    }
+    
+    .ref-bloc .plus{
+      width: 70%;
+      height: auto;
+    }
+  
+    .ref-bloc .cf{
+      width: 59%;
+      height: auto;
+    }
+  
+    .ref-bloc .al{
+      width: 28%;
+      height: auto;
+    }
+
+  }
+
+  @media (min-width : 481px) and (max-width : 768px) {
 
   }
