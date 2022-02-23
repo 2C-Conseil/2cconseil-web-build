@@ -52,7 +52,7 @@ function Contact() {
                         </div>
                         <div class="title-input">
                             <h4>Message <span class="dot">*</span></h4>
-                            <textarea name="message" id="message" cols="33" rows="3" required></textarea>
+                            <textarea name="message" id="message" required></textarea>
                         </div>
                         <button  class="submiter" type="button">Envoyer</button>
                     </form>

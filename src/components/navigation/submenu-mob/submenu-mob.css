@@ -13,7 +13,7 @@
 
 .cancel-mob{
     width: 100%;
-    height: 100px;
+    height: 70px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -35,7 +35,7 @@
 
 .menu-nav-mob li{
     margin-left: 10px;
-    font-size: 15px;
+    font-size: 16.5px;
     color: black;
 }
 
@@ -46,6 +46,8 @@
 }
 
 .menu-nav-mob .subdrop-mob{
-    display: none;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 130px;
 }
