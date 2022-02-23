@@ -68,8 +68,8 @@
   
   .submiter{
     margin-top: 10px;
-    width: 150px;
-    height: 50px;
+    max-width: 150px;
+    max-height: 50px;
     border: none;
     color: white;
     font-size: 15px;
@@ -93,12 +93,12 @@
   
   iframe{
     width: 100%;
-    height: 396px;
+    max-height: 100%;
     border: none; 
   }
 
 
-  @media (max-width : 480px){
+  @media (min-width : 320px) and (max-width : 480px){
 
     .Contact{
       width: 100%;
@@ -144,6 +144,11 @@
 
     .bloc-contact h1{
       color: #970101;
+      font-size: 20px;
+    }
+
+    .bloc-contact p{
+      font-size: 15px;
     }
 
     .form-frame{
@@ -156,7 +161,6 @@
     .formulaire{
       max-width: 100%;
       display: flex;
-     
       justify-content: center;
       align-items: center;
     }
@@ -167,14 +171,17 @@
 
     .title-input{
       width: 80%;
+      font-size: 14px;
     }
 
     .formulaire form .fieldCt{
-      min-width: 380px;
+      min-width: 250px;
       height: 36px;
     }
     
     .submiter{
+      min-width: 140px;
+      min-height: 45px;
       margin-left: 0%;
       align-self: center;
     }
@@ -189,8 +196,8 @@
     }
   
     iframe{
-      width: 80%;
-      height: 396px;
+      width: 85%;
+      min-height: 380px;
       border: none; 
     }
   }

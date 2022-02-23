@@ -27,14 +27,14 @@ function Contact() {
                                                  data-aos-duration="2800">
                     <h1 className='title-info-contact'>Contact</h1>
                     <p>Tél. 09 73 88 09 37 <br />
-                    contact@2cconseil.com
+                       contact@2cconseil.com
                     </p>
                 </div>
                 <div class="bloc-contact rightC" data-aos="fade-up"
                                                 data-aos-duration="3000">
                     <h1 className='title-info-contact'>Horaires d'ouvertures</h1>
                     <p>Lundi - Vendredi <br />
-                    9h30 - 18h30
+                       9h30 - 18h30
                     </p>
                 </div>
             </section>
@@ -52,7 +52,7 @@ function Contact() {
                         </div>
                         <div class="title-input">
                             <h4>Message <span class="dot">*</span></h4>
-                            <textarea name="message" id="message" cols="51" rows="3" required></textarea>
+                            <textarea name="message" id="message" cols="33" rows="3" required></textarea>
                         </div>
                         <button  class="submiter" type="button">Envoyer</button>
                     </form>

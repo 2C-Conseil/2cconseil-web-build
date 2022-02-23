@@ -13,6 +13,7 @@ import Contact from './pages/contact/Contact';
 import Engagement from './pages/footer/Engagements';
 import Mention from './pages/footer/Mention';
 import Valeurs from './pages/footer/Valeurs';
+import SubMenuMob from './components/navigation/submenu-mob/SubMenuMob';
 import ErrorPage from './components/error-page/ErrorPage';
 
 function RouteApp(){
@@ -31,6 +32,7 @@ function RouteApp(){
     <Route exact path="/contact" element={<Contact />} />
     <Route exact path="/nos-engagements" element={<Engagement />} />
     <Route exact path="/nos-valeurs" element={<Valeurs />} />
+    <Route exact path="/navigation-mob" element={<SubMenuMob />} />
     <Route exact path="/page-en-cours-de-production" element={<ErrorPage />} />
     <Route path="/nos-mentions-legales" element={<Mention />} />
     </Switch>
