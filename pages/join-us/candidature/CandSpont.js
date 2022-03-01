@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import './candidature.css'
+import './candidature.scoped.css'
 import "aos/dist/aos.css";
 import CandSsvg from './candsp-icon.svg';
 

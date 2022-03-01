@@ -1,0 +1,159 @@
+.Engagement-container{
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.banniere-container{
+    width: 100%;
+    height: 360px;
+}
+
+.banniere-footer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: #970101;
+}
+
+.entitle-eng{
+    width: 400px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 94px;
+    background-color: white;
+}
+
+.entitle-eng h1{
+    color: #970101;
+    font-size: 36px;
+    font-weight: 450;
+}
+
+.info-container-footer{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-content-footer{
+    width: 80%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.besoinE{
+    width: 80%;
+    height: 130px;
+}
+
+.besoinE h1{
+    color: #970101;
+}
+
+.compE{
+    width: 80%;
+    height: 130px;
+}
+
+.compE h1{
+    color: #970101;
+}
+
+.practiceE{
+    width: 80%;
+    height: 130px;
+}
+
+.practiceE h1{
+    color: #970101;
+}
+
+
+@media (min-width : 320px) and (max-width : 480px){
+
+    .banniere-container{
+        width: 100%;
+        height: 200px;
+    }
+    
+    .banniere-footer{
+        width: 100%;
+        height: 110px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        background-color: #970101;
+    }
+    
+    .entitle-eng{
+        width: 80%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        background-color: white;
+    }
+    
+    .entitle-eng h1{
+        color: #970101;
+        font-size: 23px;
+        font-weight: 450;
+    }
+    
+    .info-container-footer{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .info-content-footer{
+        width: 80%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+    }
+    
+    .besoinE{
+        width: 90%;
+        height: 130px;
+    }
+    
+    .besoinE h1{
+        font-size: 19px;
+        color: #970101;
+    }
+    
+    .compE{
+        width: 80%;
+        height: 130px;
+    }
+    
+    .compE h1{
+        font-size: 19px;
+        color: #970101;
+    }
+    
+    .practiceE{
+        width: 80%;
+        height: 130px;
+    }
+    
+    .practiceE h1{
+        font-size: 19px;
+        color: #970101;
+    }
+    
+
+}

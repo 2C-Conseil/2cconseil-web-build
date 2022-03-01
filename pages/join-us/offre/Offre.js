@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './offre.css'
+import './offre.scoped.css'
 
 
 function Offre() {

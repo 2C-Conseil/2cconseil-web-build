@@ -49,9 +49,16 @@ function Home() {
                     <div className="are-us-content">
                        <h1>Qui sommes-nous ?</h1>
                        <div className="line-are"></div>
-                       <p><span>2C Conseil</span> est une Entreprise de Services du Numérique (ESN) basé en région parisienne offrant des            prestations à forte valeur ajoutée pour ses clients. <br />
-                            Notre mission consiste à accompagner nos clients dans le processus de digitalisation de leurs activités en leur proposant une offre complète de service. <br />
-                            Pour favoriser le changement et la montée en compétence de vos équipes en interne, nous collaborons durant toute la phase de projet en dynamisant la participation de chacun par l’implication de tous.
+                       <p><span>2C Conseil</span> est une Entreprise de Services du Numérique (ESN), issue du bassin
+                            Parisien, offrant des prestations à forte valeur ajoutée pour ses clients.<br />
+                            Notre mission consiste à accompagner nos clients dans ce tortueux processus de
+                            digitalisation d’activités en vous proposant une offre complète de services.<br />
+                            Notre objectif réside dans la valorisation d’outils numériques, le développement de
+                            solutions à partir de d’outils et de vous permettre d’exploiter leur plein potentiel.<br />
+                            Pour favoriser le changement et la montée en compétence des équipes en interne
+                            de nos clients, nous nous intégrons, avec souplesse, au sein de la structure,
+                            pendant toute la durée du projet, en dynamisant la participation de chacun par
+                            l’implication de tous
                         </p>
                     </div>
                 </div>
@@ -65,7 +72,12 @@ function Home() {
             <div className="banniere">
                 <div className="title-service">
                     <h1>Nos services</h1>
-                    <h3>Nous vous proposons une offre globale, allant de l’identification de la problématique à la mise en œuvre de la solution structurée, en étroite collaboration avec vos équipes.</h3>
+                    <h3>Notre offre globale permet de répondre, avec minutie, à l’identification d’une
+                        problématique et à l’élaboration d’une solution structurée et adaptée pour sondéploiement.
+                        Maintenant une forte communication avec les équipes de nos clients, nous les
+                        accompagnons dans la compréhension de l’outil et sa prise en main pour maximiser
+                        notre transfert de connaissance et optimiser leur expérience utilisateur.
+                    </h3>
                 </div>
             </div>
             <div className="bloc-bu-home">
@@ -112,7 +124,7 @@ function Home() {
 
 
             <section className="references">
-            <h1>Nos Références</h1>
+            <h1>Ils nous font confiance</h1>
             <div className="references-content">
                 <div className="ref up">
                 <div className="ref-bloc">

@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: 4px solid #970101;
+    border-right: 4px solid  #a31000;
   }
   
   .slogan h1{
@@ -51,7 +51,7 @@
   
   .are-us-container{
     width: 57%;
-    height: 470px;
+    height: 500px;
     display: flex;
     margin-left: 220px;
     justify-content: center;
@@ -70,13 +70,13 @@
   .are-us-content h1{
     font-size: 36px;
     font-weight: 600;
-    color: #970101;
+    color:  #a31000;
   }
   
   .line-are{
     width: 90px;
     height: 3px;
-    background-color: #970101;
+    background-color:  #a31000;
   }
   
   .are-us-content p{
@@ -106,14 +106,14 @@
     top: 10px;
     flex-direction: column;
     align-items: center;
-    background-color: #970101;
+    background-color:  #a31000;
   }
   
   .services .banniere .title-service{
     width: 80%;
     height: 220px;
     display: flex;
-    background-color: #970101;
+    background-color:  #a31000;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -161,18 +161,19 @@
   }
 
   .bloc-bu-home .blocH .bloc-bu-content h2{
-    color: #970101;
+    color:  #a31000;
     font-weight: 500;
   }
   
   .bloc-bu-home .blocH .bloc-bu-content p{
     text-align: center;
+    display: none;
     font-size: 17px;
     line-height: 5vh;
   }
   
   .bloc-bu-home .blocH .bloc-bu-content .bu-btn{
-    color: #970101;
+    color:  #a31000;
     text-decoration: none;
   }
   
@@ -329,7 +330,7 @@
     }
 
     .bloc-bu-home .blocH .bloc-bu-content h2{
-      color: #970101;
+      color:  #a31000;
       font-weight: 500;
       font-size: 21px;
     }
@@ -338,6 +339,7 @@
       width: 100%;
       height: 900px;
       margin-top: 180px;
+      justify-content: space-around;
       flex-direction: column;
 
     }  
@@ -349,6 +351,10 @@
     .bloc-bu-home .blocH{
       width: 75%;
       height: 300px;
+    }
+
+    .bloc-bu-home .blocH .bloc-bu-content {
+
     }
 
     .bloc-bu-home .blocH .bloc-bu-content p{
@@ -413,6 +419,29 @@
 
   }
 
+  @media (min-width : 370px) and (max-width : 480px) {
+
+    .are-us{
+      height: 560px;
+    }
+
+    .are-us-container{
+      margin-top: 10%;
+    }
+  }
+
   @media (min-width : 481px) and (max-width : 768px) {
+
+  }
+
+  @media (min-width : 400px) and (max-width : 480px) {
+    
+    .are-us-container{
+      height: 400px;
+    }
+
+    .are-us-content{
+      height: 300px;
+    }
 
   }

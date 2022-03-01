@@ -6,9 +6,12 @@ function Valeurs(){
     return(
 
         <div class="Valeurs-container">
-            <div class="head-ban">
-                <div class="ban"></div>
-                <div class="title"><p>Nos Valeurs</p></div>
+           <div className='banniere-container'>
+                <div className='banniere-footer'>
+                    <div className='entitle-eng'>
+                        <h1>Nos valeurs</h1>
+                    </div>
+                </div>
             </div>
             <section class="valeurs">
                 <div class="esprit-acc">

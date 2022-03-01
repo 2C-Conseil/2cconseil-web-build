@@ -1,5 +1,5 @@
 import React from 'react';
-import './candidature.css'
+import './candidature.scoped.css'
 import CandSvg from './cand-icon.svg';
 
 
