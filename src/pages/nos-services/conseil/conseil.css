@@ -2,15 +2,15 @@
     background-color: #ececec;
 }
 
-.ban{
+.banC{
     width: 100%;
-    height: 180px;
+    height: 160px;
     display: flex;
     justify-content: center;
     background-color: #970101;
 }
 
-.ban .titleConseil{
+.banC .titleConseil{
     width: 450px;
     height: 130px;
     display: flex;
@@ -20,18 +20,17 @@
     background-color: white;
 }
 
-.ban .title p{
+.banC .title p{
     color: #970101;
     font-size: 45px;
 }
 
-.intro{
+.introC{
     width: 100%;
     height: 770px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 200px;
 }
 .intro-head{
     width: 100%;
@@ -39,12 +38,12 @@
     display: flex;
     justify-content: center;
 }
-.intro img{
+.introC img{
     width: 600px;
     height: 400px;
 }
 
-.intro .infoConseil{
+.introC .infoConseil{
     width: 40%;
     height: 400px;
     display: flex;
@@ -52,7 +51,7 @@
     margin-left: 20px;
 }
 
-.intro .infoConseil p{
+.introC .infoConseil p{
     font-size: 24px;
     line-height: 73px;
 }
@@ -200,4 +199,191 @@
     margin-top: 20px;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.Conseil-mob{
+    display: none;
+}
+
+@media (min-width : 320px) and (max-width : 480px){
+
+    .Conseil-content{
+        display: none;
+    }
+
+    .Conseil-mob{
+        display: block;
+        width: 100%;
+        height: 1980px;
+    }
+
+    .intro-mobC{
+        width: 100%;
+        height: 430px;
+    }
+
+    .intro-head-mob{
+        width: 100%;
+        height: 430px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .intro-head-mob img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .intro-head-mob .infoConseil-mob{
+        width: 84%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .intro-head-mob .infoConseil-mob p{
+        font-size: 15.5px;
+    
+    }
+    
+    .prospect-mobD{
+        width: 100%;
+        height: 1350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #970101;
+    }
+    
+    .need-mobC{
+        width: 80%;
+        height: 240px;
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    
+    .need-contentConseil-mob{
+        width: 89%;
+        height: 100%;
+    }
+    
+    .need-contentConseil-mob h1{
+        font-size: 18px;
+        color: #970101;
+    }
+    
+    .lineConseil-mob{
+        width: 10%;
+        height: 4px;
+        background-color: #970101;
+    }
+    
+    .need-contentConseil-mob p{
+        font-size: 14px;
+    }
+    
+    .savoir-mobC{
+        width: 80%;
+        height: 540px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    
+    
+    .savoir-faire-contentConseil-mob{
+        width: 89%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .savoir-faire-contentConseil-mob h1{
+        font-size: 18px;
+        color: #970101;
+    }
+
+    .savoir-faire-infoConseil-mob{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .savoir-faire-infoConseil-mob p{
+        font-size: 14px;
+    }
+        
+    .mission-mobC{
+        width: 80%;
+        height: 395px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    
+    
+    .mission-contentConseil-mob{
+        width: 91%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .mission-contentConseil-mob h1{
+        color: #970101;
+        font-size: 18px;
+    }
+    
+    .mission-infoConseil-mob{
+        width: 90%;
+        height: 78%;
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    .info-up-mobC{
+        width: 100%;
+        height: 160px;
+        font-size: 15px;
+    }
+    
+    
+    .info-up-mobC strong{
+        font-size: 15px;
+    
+    }
+    
+    .info-up-mobC .ex{
+        margin-left: 22px;
+        font-size: 14px;
+    
+    }
+    
+    .info-down-mobC{
+        width: 100%;
+        height: 180px;
+        margin-bottom: 18px;
+    }
+    
+    .info-down-mobC strong{
+        font-size: 15px;
+    }
+    
+    .info-down-mobC .ex{
+        margin-left: 22px;
+        font-size: 14px;
+    }
+    
 }

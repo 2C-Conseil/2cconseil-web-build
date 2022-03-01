@@ -88,6 +88,15 @@ function Data(){
             </div>
 
             <section className='data-mob'>
+            <div className='header-conseil-mob'>
+                    <div className='banniere-container'>
+                        <div className='banniere-footer'>
+                            <div className='entitle-men'>
+                                <h1>Data</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             
                 <div className='intro-mobD'>
                     <img src={hDataImg} alt="principale de la data" />
@@ -118,7 +127,7 @@ function Data(){
                            <div className='lineData-mob'></div>
                            <div className="savoir-faire-infoData">
                                 <p>Gestion projet Big Data de collecte, traitement et diffusion de statistiques d’investissements de portefeuille en valeurs mobilières,</p>
-                                <p>Analyse fonctionnelle: algorithmes de traitement des données (scoring, valeurs par défaut, etc.); <br /> modélisation mathématique; <br /> design des bases de données</p>
+                                <p>Analyse fonctionnelle : algorithmes de traitement des données (scoring, valeurs par défaut, etc.); <br /> modélisation mathématique; <br /> design des bases de données</p>
                                 <p>Rédaction User stories, définition de la stratégie de recette fonctionnelle, rédaction cahier de recette et pilotage exécution.</p>
                             </div>
                         </div>
@@ -130,14 +139,14 @@ function Data(){
                             <div className="mission-infoData-mob">
                                 <div className="info-up-mobD">
                                     <p><strong>Chef de projet Big Data pour la production de la position extérieure globale</strong></p>
-                                    <p className="ex">SI: Application métier</p>
-                                    <p className="ex">Expertise: Data</p>
+                                    <p className="ex">SI : Application métier</p>
+                                    <p className="ex">Expertise : Data</p>
                                     <p className="ex">Secteur : Transport</p>
                                 </div>
                                 <div className="info-down-mobD">
                                     <p><strong>Création application mobile incluant calcul kilométrique, géolocalisation</strong></p>
-                                    <p className="ex">SI: Application mobile</p>
-                                    <p className="ex">Expertise: Lead Tech </p>
+                                    <p className="ex">SI : Application mobile</p>
+                                    <p className="ex">Expertise : Lead Tech </p>
                                     <p className="ex">Secteur : Secteur public</p>
                                 </div>
                             </div>
