@@ -92,6 +92,7 @@
   
 
 
+
   .services{
     width: 100%;
     min-height: 690px;
@@ -101,7 +102,7 @@
   
   .services .banniere{
     width: 100%;
-    height: 350px;
+    height: 290px;
     display: flex;
     top: 10px;
     flex-direction: column;
@@ -111,7 +112,7 @@
   
   .services .banniere .title-service{
     width: 80%;
-    height: 220px;
+    height: 240px;
     display: flex;
     background-color:  #a31000;
     flex-direction: column;
@@ -135,18 +136,18 @@
   
    .bloc-bu-home{
     width: 100%;
-    height: 200px;
+    height: 160px;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
   
   .bloc-bu-home .blocH{
-    width: 279px;
-    height: 329px;
+    width: 250px;
+    height: 240px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #ebebeb;
   }
@@ -156,7 +157,7 @@
     height: 280px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
   }
 
@@ -173,7 +174,15 @@
   }
   
   .bloc-bu-home .blocH .bloc-bu-content .bu-btn{
+    color:  black;
+    margin-top: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  .bloc-bu-home .blocH .bloc-bu-content .bu-btn:hover{
     color:  #a31000;
+    margin-top: 30px;
     text-decoration: none;
   }
   
