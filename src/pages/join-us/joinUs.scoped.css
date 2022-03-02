@@ -43,6 +43,8 @@
     font-weight: 500;
     color: #970101;
 }
+
+
 .sentences{
     width: 77%;
     height: 1310px;
@@ -180,12 +182,22 @@
 }
 
 .cand-btn{
+    display: flex;
+    flex-direction: row;
     padding: 30px;
     margin-top: 40px;
     text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
     background-color: #970101;
     color: white;
     font-weight: bold;
+}
+
+.cand-btn i{
+    font-size: 20px;
+    margin-right: 10px;
+    color: white;
 }
 .JoinUs-mob{
     display: none;

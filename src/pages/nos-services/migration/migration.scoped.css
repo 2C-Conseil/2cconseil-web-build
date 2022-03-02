@@ -73,7 +73,7 @@
 }
 
 .needMigr{
-    width: 450px;
+    width: 400px;
     height: 330px;
     display: flex;
     position: absolute;
@@ -91,9 +91,10 @@
 }
 
 .need-contentMigr{
-    width: 400px;
+    width: 380px;
     height: 300px;
     display: flex;
+    margin-left: 15px;
     flex-direction: column;
 }
 
@@ -112,7 +113,7 @@
 }
 
 .missionMigr{
-    width: 450px;
+    width: 400px;
     height: 450px;
     display: flex;
     position: absolute;
@@ -124,7 +125,7 @@
 }
 
 .mission-contentMigr{
-    width: 400px;
+    width: 90%;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -165,11 +166,11 @@
 }
 
 .savoir-faireMigr{
-    width: 450px;
+    width: 420px;
     height: 520px;
     display: flex;
     position: absolute;
-    margin-top: 110%;
+    margin-top: 109%;
     margin-left: 54%;
     justify-content: center;
     align-items: center;
@@ -211,7 +212,7 @@
 .Migration-mob{
     display: block;
     width: 100%;
-    height: 1940px;
+    height: 1990px;
 }
 
 .ban{
@@ -240,7 +241,7 @@
 
 .intro-head-mobM{
     width: 100%;
-    height: 440px;
+    height: 490px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -254,13 +255,13 @@
 
 .intro-head-mobM .infoM-mob{
     width: 87%;
-    height: 400px;
+    height: 430px;
     display: flex;
     align-items: center;
 }
 
 .intro-head-mobM .infoM-mob p{
-    font-size: 16px;
+    font-size: 18px;
 
 }
 

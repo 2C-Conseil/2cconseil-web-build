@@ -47,7 +47,7 @@ function Migration(){
                             </div>
                         </div>
                     </div>
-                    <div className="missionConseil">
+                    <div className="missionMigr">
                         <div className="mission-contentMigr">
                             <h1>Exemples de mission</h1>
                             <div className='lineMigr'></div>

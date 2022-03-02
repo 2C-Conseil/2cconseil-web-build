@@ -56,9 +56,9 @@
     line-height: 7vh;
 }
 
-.prospect{
+.prospectI{
     width: 100%;
-    height: 950px;
+    height: 1000px;
     display: flex;
     justify-content: space-evenly;
     background-color: #970101 ;
@@ -73,7 +73,7 @@
 
 .needIpa{
     width: 450px;
-    height: 420px;
+    height: 370px;
     display: flex;
     position: absolute;
     top: 1200px;
@@ -91,10 +91,10 @@
 
 .need-contentIpa{
     width: 400px;
-    height: 420px;
+    height: 350px;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    justify-content: space-evenly;
 }
 
 .need-contentIpa h1{
@@ -116,7 +116,7 @@
     position: absolute;
     justify-content: center;
     align-items: center;
-    margin-top: 154%;
+    margin-top: 159%;
     margin-left: 150px;
     background-color: white;
 
@@ -168,7 +168,7 @@
     height: 520px;
     display: flex;
     position: absolute;
-    margin-top: 110%;
+    margin-top: 108%;
     margin-left: 54%;
     justify-content: center;
     align-items: center;
@@ -215,7 +215,7 @@
         
     .intro-mobI{
         width: 100%;
-        height: 470px;
+        height: 550px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -223,7 +223,8 @@
 
     .intro-head-mobI{
         width: 100%;
-        height: 600px;
+        height: 580px;
+        margin-top: 20px;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -232,19 +233,22 @@
     
     .intro-mobI img{
         width: 100%;
+
         height: auto;
     }
 
     .info-mobI{
+        margin-bottom: 20px;
         width: 86%;
+        height: 380px;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 250px;
+    
     }
 
     .info-mobI p{
-        font-size: 15px;
+        font-size: 18px;
     }
     
     .intro .infoI{
@@ -257,7 +261,7 @@
     
     .prospect-mobIpa{
         width: 100%;
-        height: 1700px;
+        height: 1630px;
         display: flex;
         flex-direction: column;
         align-items: center;

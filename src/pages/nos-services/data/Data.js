@@ -57,14 +57,14 @@ function Data(){
                             <div className="mission-infoData">
                                 <div className="info-up">
                                     <p><strong>Chef de projet Big Data pour la production de la position extérieure globale</strong></p>
-                                    <p className="ex">SI: Application métier</p>
-                                    <p className="ex">Expertise: Data</p>
+                                    <p className="ex">SI : Application métier</p>
+                                    <p className="ex">Expertise : Data</p>
                                     <p className="ex">Secteur : Transport</p>
                                 </div>
                                 <div className="info-down">
                                     <p><strong>Création application mobile incluant calcul kilométrique, géolocalisation</strong></p>
-                                    <p className="ex">SI: Application mobile</p>
-                                    <p className="ex">Expertise: Lead Tech </p>
+                                    <p className="ex">SI : Application mobile</p>
+                                    <p className="ex">Expertise : Lead Tech </p>
                                     <p className="ex">Secteur : Secteur public</p>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ function Data(){
                         </div>
                         </div>
                     </section>
-                    <section className="prospect">
+                    <section className="prospectD">
                     </section>
             </div>
 

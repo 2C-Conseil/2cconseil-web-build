@@ -56,9 +56,9 @@
     line-height: 7.5vh;
 }
 
-.prospect{
+.prospectD{
     width: 100%;
-    height: 950px;
+    height: 1000px;
     display: flex;
     justify-content: space-evenly;
     background-color: #970101 ;
@@ -117,7 +117,7 @@
     position: absolute;
     justify-content: center;
     align-items: center;
-    margin-top: 149%;
+    margin-top: 162%;
     margin-left: 150px;
     background-color: white;
 
@@ -169,7 +169,7 @@
     height: 450px;
     display: flex;
     position: absolute;
-    margin-top: 110%;
+    margin-top: 102%;
     margin-left: 54%;
     justify-content: center;
     align-items: center;
@@ -216,7 +216,7 @@
 
     .intro-mobD{
         width: 100%;
-        height: 530px;
+        height: 610px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -230,15 +230,16 @@
     }
 
     .intro-mobD .infoData-mob {
-        width: 80%;
+        width: 85%;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 280px;
+        height: 320px;
+        margin-bottom: 18px;
     }
 
     .intro-mobD .infoData-mob p {
-        font-size: 15.5px;
+        font-size: 18px;
     }
 
     .prospect-mobData{
@@ -262,7 +263,7 @@
     }
 
     .need-contentData{
-        width: 89%;
+        width: 92%;
         height: 100%;
     }
 

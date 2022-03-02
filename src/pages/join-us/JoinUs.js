@@ -87,7 +87,7 @@ function JoinUs() {
                         Adressez-nous votre candidature spontanée !!
                     </h2>
 
-                    <Link class="cand-btn" to="/candisp">Candidature spontanée</Link>
+                    <Link class="cand-btn" to="/candisp"><i class="bi bi-arrow-right" data-aos="fade-right" data-aos-duration="700"></i>C'est par ici</Link>
 
                 </div>
             </section>

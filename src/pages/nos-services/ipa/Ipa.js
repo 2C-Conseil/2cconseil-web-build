@@ -89,7 +89,7 @@ function Ipa(){
                        </div>
                     </div>
            </section>
-           <section className="prospect">
+           <section className="prospectI">
             </section>
             </div>
 
