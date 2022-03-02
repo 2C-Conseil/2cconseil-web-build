@@ -41,7 +41,8 @@
 
                                 /*Section Qui sommes-nous*/ 
 
- .are-us{
+
+  .are-us{
     width: 100%;
     height: 630px;
     display: flex;
@@ -90,7 +91,6 @@
   
                             /*Section Nos services*/ 
   
-
 
 
   .services{
@@ -268,7 +268,7 @@
     .Home-mob{
       display: block;
       width: 100%;
-      height: 600vh;
+      height: 620vh;
     }
           /*Section Slogan Image Mob*/
 
