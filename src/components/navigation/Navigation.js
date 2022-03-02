@@ -7,6 +7,8 @@ import {Link} from 'react-router-dom';
 
 function Navigation() {
     const [show,setShow]=useState(false)
+
+
   return (
 
     <div className='header-nav'>
@@ -19,7 +21,7 @@ function Navigation() {
                 <li>
                     <Link onClick={()=>setShow(!show)} className="nav-header menu-btn" id='drop-btn' to="#">Nos services</Link>
                   {
-                    show?<ul className="sub-menu" id='hidden-menu'>
+                    show?<ul onMouseOver={()=>setShow(show)} onMouseLeave={()=>setShow(!show)} className="sub-menu" id='hidden-menu'>
                         <li><Link className="nav-submenu" to="/nos-services/conseil">Conseil & SI</Link></li>
                         <li><Link className="nav-submenu" to="/nos-services/migration">Migration ERP</Link></li>
                         <li><Link className="nav-submenu" to="/nos-services/data">Data</Link></li>
