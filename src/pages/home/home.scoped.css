@@ -253,123 +253,167 @@
     width: 33%;
     height: auto;
   }
+
+  .Home-mob,.Home-tab{
+    display: none;
+  }
   
   @media (min-width : 320px) and (max-width : 480px) {
 
-   
+          /* Initilisation affichage écran */
+
+    .Home-pc,.Home-tab{
+      display: none;
+    }
+
+    .Home-mob{
+      display: block;
+      width: 100%;
+      height: 600vh;
+    }
           /*Section Slogan Image Mob*/
 
-    .slog-img{
-      height: 250px;
+    .img-mob{
+      width: 100%;
+      height: 210px;
     }
     
-    .slogan{
-      display: none;
-      height: 100%;
-    }
-
     .img-container-home{
       width: 100%;
       height: 300px;
     }
-    
-    .slogan h1{
-      font-size: 12px;
-    }
 
-    .img-header-home{
+    .img-container-home img{
       width: 100%;
       height: auto;
     }
+    
 
           /*Section Qui sommes-nous Mob*/ 
-    
-    .are-us{
-      width: 100%;
-      min-height: 510px;
-      justify-content: center;
-      align-items: flex-start;
-    }
 
-    .are-us-container{
-      width: 83%;
-      height: 450px;
+    .are-us-mob{
+      width: 100%;
+      min-height: 700px;
+      max-height: 730px;
       display: flex;
-      margin-left: 0%;
+      align-items: center;
+      justify-content: center;
     }
 
-    .are-us-content h1{
+    .are-us-back-mob{
+      width: 80%;
+      height: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(235, 232, 232);
+    }
+
+    .are-us-content-mob{
+      width: 90%;
+      height: 95%;
+    }
+
+    .are-us-content-mob h1{
       font-size: 24px;
+      color: #a31000;
     }
-    
 
-    .are-us-content p{
-      line-height: 21px;
-      font-size: 14px;
+    .are-us-content-mob .line-are-mob{
+      width: 10%;
+      height: 4px;
+      background-color: #a31000;
+
     }
-    
-    .line-are{
-      width: 40px;
-      height: 3px;
+
+    .are-us-content-mob p{
+      font-size: 17px;
+
     }
+
+    .are-us-content-mob .mission-Home,.objec-Home{
+      font-weight: 700;
+    }
+
           /*Section Nos Services Mob*/
-
-
-    .services{
+    .services-mob{
       width: 100%;
-      height: 1650px;
-    }
-
-    .services .banniere{
-      height: 300px;
-    }
-
-    .services .banniere .title-service{
-
-    }
-
-    .services .banniere .title-service h1{
-      font-size: 24px;
-
-    }
-
-    .services .banniere .title-service h3{
-      font-size: 14px;
-      line-height: 25px;
-    }
-
-    .bloc-bu-home .blocH .bloc-bu-content h2{
-      color:  #a31000;
-      font-weight: 500;
-      font-size: 21px;
-    }
-
-    .bloc-bu-home{
-      width: 100%;
-      height: 900px;
-      margin-top: 180px;
-      justify-content: space-around;
+      min-height: 1500px;
+      max-height: 1550px;
+      display: flex;
       flex-direction: column;
-
-    }  
-
-    .bloc-bu-home .bdown{
-      margin-top: 80px;
+      background-color: white;
     }
 
-    .bloc-bu-home .blocH{
-      width: 75%;
-      height: 300px;
+    .services-mob .banniere-mob{
+      width: 100%;
+      margin-top: 20px;
+      max-height: 440px;
+      min-height: 340px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #a31000;
     }
 
-    .bloc-bu-home .blocH .bloc-bu-content {
+    .title-service-mob{
+      width: 89%;
+      height: 89%;
+    }
+
+    .banniere-mob h1{
+      font-size: 24px;
+      color: white;
+      text-align: center;
+    }
+
+    .banniere-mob h3{
+      font-size: 16.3px;
+      color: white;
+      font-weight: 300;
+    }
+
+    .bloc-bu-home-mob{
+      width: 100%;
+      height: 1000px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      background-color: white;
+    }
+
+    .blocH-mob{
+      width: 65%;
+      height: 200px;
+      background-color: rgba(228, 228, 228, 0.726);
+    }
+
+    .bloc-bu-content-mob{
+
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
     }
 
-    .bloc-bu-home .blocH .bloc-bu-content p{
-      line-height: 28px;
-      font-size: 15px;
+    .bloc-bu-content-mob h2{
+      color: #a31000;
+      font-size: 22px;
     }
+
+    .bu-btn-mob{
+      color: black;
+      transition: 0.5s ease;
+    }
+
+    .bu-btn-mob:hover{
+      color: #a31000;
+    }
+
 
 
           /*Section Nos References Mob*/ 
